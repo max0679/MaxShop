@@ -1,0 +1,45 @@
+.user-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-height:300px;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+.user-block {
+    background: whitesmoke;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.user-block .registration a {
+    color: black;
+}
+
+.user-body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user-container .icheck-primary a,
+.user-container .have-account a {
+    color : black;
+}
+
+.user-container .input-group-text {
+    background: white;
+}
+
+.user-container .close-user-form {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+}
+
+.user-container .close-user-form:hover,
+.open-log-form:hover,
+.open-reg-form:hover {
+    cursor: pointer;
+}

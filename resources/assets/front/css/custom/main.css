@@ -1,0 +1,60 @@
+.logo { font-weight: 500 ;}
+.text-warning {  color: #ede861 ;}
+.text-muted { color: #bcbcbc ;}
+.text-success { color: #59ab6e ;}
+.text-light { color: #cfd6e1 ;}
+.bg-dark { background-color: #212934 ;}
+.bg-light { background-color: #e9eef5 ;}
+.bg-black { background-color: #1d242d ;}
+.bg-success { background-color: #59ab6e ;}
+.btn-success {
+    background-color: #59ab6e ;
+    border-color: #56ae6c ;
+}
+
+body, ul, li, p, a, label, input, div {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px ;
+    font-weight: 300 ;
+}
+.h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px ;
+    font-weight: 200 ;
+}
+.h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px ;
+    font-weight: 300;
+}
+.h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px ;
+}
+
+
+.eq-circle {
+    max-height:100%;
+    max-width:100%;
+}
+
+.stars i:before {
+    color: orange;
+}
+
+.single-product.product-description *{
+    font-size: 15px;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+#main-area.dark-screen *{
+    opacity: 0.6;
+}
+
+#main-area.dark-screen {
+    background: url("../img/dark.jpg");
+    background-repeat: round;
+}

@@ -1,0 +1,46 @@
+.breadcrumb {
+    all: unset;
+}
+
+.breadcrumb *{
+    text-decoration: none;
+}
+
+.breadcrumb-el {
+    display: inline-flex;
+    background: #d3d9df;
+    margin: 0px 5px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.breadcrumb-el *{
+    color: #0b2e13;
+}
+
+.breadcrumb-el:hover{
+    color: #0b2e13;
+    background: #9fcdff;
+}
+
+.breadcrumb-el a{
+    padding: 2px 15px;
+}
+
+.breadcrumb-el a:hover{
+    text-decoration: none;
+}
+
+
+.breadcrumb-el.current {
+    background: #9fcdff;
+}
+
+.breadcrumb-separator {
+    display: inline-flex;
+}
+
+.breadcrumb-separator:before {
+    content: "/";
+    font-size: 20px;
+}
